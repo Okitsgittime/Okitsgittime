@@ -1,0 +1,135 @@
+/* Still need
+contact icons
+more pages
+maybe a button?
+cool mouse arow thingy
+cool background images!
+make own icons
+cool pop up info */
+
+body {
+  margin:auto;
+  text-align: center;
+  color:#C49B0B;
+  font-family: 'Comfortaa', cursive;
+  font-size: 14;
+  font-weight: 400;
+  background-color:black;
+  width: 1100px;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+  border-radius: 40px;
+  box-shadow: -5px -5px 30px 5px  #f42aa6, 5px 5px 30px 5px  #a50578;
+}
+
+links :hover {
+background: #333;
+color: white;
+padding: 5px;
+text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #f42aa6;
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: #f42aa6;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a50578;
+  text-decoration: underline;
+}
+
+/* active link */
+a:active {
+  color: #000;
+}
+
+h2 {
+  font-size: 2.5rem;
+  -webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.profile-picture {
+  width: 15%;
+  height: auto;
+  padding-top:40px;
+  padding-bottom: 80px;
+}
+
+.top-container {
+  background-color:#1C1C1C;
+  padding-top:200px;
+  margin-top: 80px;
+  border-radius: 20px 20px 0 0;
+}
+
+.icon-1 {
+  width: 25%;
+  float:left;
+  margin-right: 30px
+}
+
+.icon-2 {
+  width: 25%;
+  float:right;
+  margin-left: 0;
+}
+
+.skills {
+  padding-top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin-left: 300px;
+  text-align: left;
+  line-height: 2;
+  padding-bottom: 80px;
+}
+
+
+
+.love-to-help {
+  padding-top: 20px;
+  padding-bottom: 200px;
+
+}
+
+.btn {
+  position:relative;
+  top: 10px;
+  bottom: 80px;
+}
+
+.freelance {
+  padding-top:100px;
+}
+
+.footer-link-a {
+  position: relative;
+  right: 80px;
+}
+
+.footer-link-b {
+  position: relative;
+  left: 80px;
+}
+
+.fav {
+  font-size: 10px;
+
+
+}
+
+footer {
+padding-top:50px;
+background-color: #260829;
+border-radius: 0 0 20px 20px;
+}
